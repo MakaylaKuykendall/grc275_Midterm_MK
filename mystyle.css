@@ -1,0 +1,289 @@
+/*CSS for Hobby Site*/
+/* colors = Light green is #5A9E86, dark green is #025942, sage is #C1D4CB, cream is #FFFBED*/
+/*Font families are body: font-family: 'EB Garamond', serif; and Headings: font-family: 'Orelega One', serif; */
+
+/*TO DO - Fix responsiveness, understand positions, fixed widths.
+    Add buttons to respective sections +links
+    
+
+*/
+
+* {
+    font-family: 'EB Garamond', serif;
+}
+body {
+    background-color: #FFFBED;
+    margin: 0px; 
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    /*how to add hamburger menu*/
+    align-items: center;
+    padding: 15px 0px ;
+    background-color:#C1D4CB; 
+}
+
+nav h1{
+    font-family:'Orelega One', serif;
+    margin: 0px 50px;
+}
+
+.intro{
+    position: relative;
+}
+
+.intro img{
+    width: 100%;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 89, 66, 0.7);
+    position: absolute;
+    top: 500px;
+    right: 0px;
+    justify-content: flex-end;
+    padding: 40px;
+    color:white;
+}
+
+.contatiner-1 h2{
+    font-family: 'orelega one', serif;
+    max-width: 600px;
+    font-size: 800px;
+    color:black;
+}
+
+.container-1 p{
+    margin: 0px;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.crochet{
+    display:inline-flex;
+    flex-wrap: wrap;
+    flex-shrink; 0;
+    margin: 50px;
+}
+
+.crochet img{
+    align-self:center;
+    flex-grow: 1;
+    padding-bottom: 1.25em;
+}
+.crochet-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2{
+    margin: 0px 50px;
+}
+.container-2 h2{
+    font-family: 'orelega one', serif;
+    max-width: 600px;
+    font-size: 50px;
+}
+
+.container-2 p {
+    margin: 0px;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.gaming{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 50px;
+    background-color: #025942;
+}
+
+#g-imgs{
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.container-3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0px;
+    padding-bottom: 1.25em;
+}
+
+.container-3 h2{
+    font-family: 'orelega one', serif;
+    max-width: 400px;
+    font-size: 50px;
+}
+
+.container-3 p{
+    margin: 0px;
+    max-width: 400px;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.paper{
+   position: relative;
+}
+
+.reading{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px 50px;
+    justify-content: center;
+}
+
+#r-imgs{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    margin: 50px;
+}
+
+#fav-books h2{
+    font-family: 'orelega one', serif;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.books{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+}
+
+.books button{
+    font-family: 'orelega one', serif;
+    padding: 1em;
+    border: 0px;
+    outline:none;
+    border-radius: 1em;
+    background-color: #C1D4CB;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    max-width: 400px;
+}
+
+.books button a{
+    font-family: 'orelega one', serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 89, 66, 0.7);
+    color: white;
+    padding: 40px;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+
+.container-4 h2{
+    font-family: 'orelega one', serif;
+    max-width: 600px;
+    font-size: 50px;
+}
+
+.container-4 p {
+    margin: 0px;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.last{
+    margin: 0px;
+    background-color:#025942;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.sculpt{
+}
+
+.pottery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#s-img-1{
+    margin: 50px; 
+    align-self: center;
+}
+
+.container-5{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.container-5 h2{
+    font-family: 'orelega one', serif;
+    max-width: 600px;
+    font-size: 50px;
+}
+
+.container-5 p{
+    margin: 0px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    font-size: 20px;
+}
+
+.container-5 button{
+    font-family: 'orelega one', serif;
+    font-size: 25px;
+    border: none;
+    background-color: #C1D4CB;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin: 0.5em;
+    max-width: 400px;
+}
+
+.container-5 button a{
+    font-family: 'orelega one', serif;
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    font-family: 'orelega one', serif;
+    display: flex;
+    justify-content: space-between;
+    Text-align: left;
+    background-color: #5A9E86;
+    padding: 25px;
+    color: white;    
+}
+
+footer button{
+    font-family: 'orelega one', serif;
+    border: none;
+    background-color: #C1D4CB;
+    border-radius: 0.5em;
+    /*how to make a button scroll somwhere on page*/
+}
+
+footer button:hover{
+    
+}
